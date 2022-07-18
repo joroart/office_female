@@ -1,0 +1,36 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="true" scrollx="1316" scrolly="682.9999847412109" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="BKxlfbt${!`mkd[`wF.s" x="-1390" y="-650">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setCSSRuleStyle" id="T$*x|28WiwY_/Y}X5|?)" x="-1410" y="-270">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PROPERTY">visibility</field>
+      <field name="PARENT">TRUE</field>
+      <value name="VALUE">
+        <block type="text" id="Nby^8t23;Ze/,FXxbhut">
+          <field name="TEXT">hidden</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="3f7%`YgVARw%noc*#hTG">
+          <field name="TEXT">v3d-simple-preloader-logo</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="false" scrollx="1488.5244388658466" scrolly="737.1140246557297" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setActiveCamera" id="fZDkkR?+^XuXQ2w|O=.W" x="-1370" y="-590">
+      <value name="CAMERA">
+        <shadow type="objectList" id="R$850mUMB2ZNmVT%zWlG">
+          <field name="FIELDNAME">Camera</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="361.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

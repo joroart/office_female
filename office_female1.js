@@ -1,5 +1,7 @@
 'use strict';
 
+/* __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated */
+
 window.addEventListener('load', function() {
 
 var CONTAINER_ID = 'v3d-container';

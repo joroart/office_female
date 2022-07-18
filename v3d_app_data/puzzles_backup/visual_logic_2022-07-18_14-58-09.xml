@@ -1,0 +1,70 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="1316" scrolly="682.9999847412109" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="BKxlfbt${!`mkd[`wF.s" x="-1390" y="-650">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1377.3244266588154" scrolly="802.7140307592454" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setActiveCamera" id="fZDkkR?+^XuXQ2w|O=.W" x="-1330" y="-670">
+      <value name="CAMERA">
+        <shadow type="objectList" id="R$850mUMB2ZNmVT%zWlG">
+          <field name="FIELDNAME">Camera</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="controls_if" id="nqrp}oR)%ZB1IIdshn_w" x="-1337" y="-507">
+      <value name="IF0">
+        <block type="logic_compare" id="y?g00*xj4+l_@h;7-cJ%">
+          <field name="OP">EQ</field>
+          <value name="A">
+            <block type="getAnimationFrame" id="3aN_#Z)opVbE)%yNFo:.">
+              <value name="VALUE">
+                <shadow type="animationList" id="(=|:v~KR}BJ(zwd:b5M?">
+                  <field name="FIELDNAME">Bip001</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="B">
+            <block type="math_number" id="yNv)i0.`02=oGNGZy27_">
+              <field name="NUM">200</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <statement name="DO0">
+        <block type="console.log" id="amqx@.DMZV4hHvaHr^jl">
+          <value name="VALUE">
+            <shadow type="text" id="Yiqht[CBs1DGO!o.+e9`">
+              <field name="TEXT">Hello, Verge!</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="execScript" id="nE/8sY@v2f{sHrCAxg+(">
+              <value name="TEXT">
+                <shadow type="textMultiline" id="ITt%D)KCZW^bzq.v{V@C">
+                  <field name="HIGHLIGHT_MODE">javascript</field>
+                  <field name="TEXT">console.log("hello!w");
+
+let speech = new SpeechSynthesisUtterance();
+
+speech.lang = "en";
+
+speech.text = "hello! welcome"
+
+window.speechSynthesis.speak(speech);
+                  </field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="361.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

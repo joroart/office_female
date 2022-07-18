@@ -1,0 +1,118 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="1316" scrolly="682.9999847412109" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="BKxlfbt${!`mkd[`wF.s" x="-1390" y="-650">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1065.2979615868771" scrolly="623.19418194626" scale="0.6935539619171462">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setActiveCamera" id="fZDkkR?+^XuXQ2w|O=.W" x="-1310" y="-730">
+      <value name="CAMERA">
+        <shadow type="objectList" id="R$850mUMB2ZNmVT%zWlG">
+          <field name="FIELDNAME">Camera</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id=")B!#bu-YxdN?1-{kx@!v" x="-1350" y="-650">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">AUTO</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="ydacb7XE#OH@W1BeISpu">
+          <field name="FIELDNAME">Bip001</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="e42chF8zOlwh-wO4k,I8">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="_??fq!M}z)OWFUG;%_IN">
+          <field name="NUM">55</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="Xuu]6rJZ#5:sQ%^yJHq:">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="console.log" id="amqx@.DMZV4hHvaHr^jl">
+          <value name="VALUE">
+            <shadow type="text" id="Yiqht[CBs1DGO!o.+e9`">
+              <field name="TEXT">Hello, Verge!</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="@D)e|u0eK_eaJfss3;Yw">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="^ZI*{Urz/zB=E,deh/3a">
+                  <field name="FIELDNAME">Bip001</field>
+                </shadow>
+              </value>
+              <value name="FROM">
+                <shadow type="math_number" id="n!QAZ/-b*co9Ir*=#jE.">
+                  <field name="NUM">55</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="^=*@BJ-+N#)vA1Vn3)Pw">
+                  <field name="NUM">750</field>
+                </shadow>
+              </value>
+              <value name="SPEED">
+                <shadow type="math_number" id="w+1,L9]Ab=dSjACVYOc0">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="console.log" id="3dVAV3Cu(k.IyU|?U:07">
+                  <value name="VALUE">
+                    <shadow type="text" id="(W{^_5TZje=Z)j4PKpDW">
+                      <field name="TEXT">Hello, Verge!</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimeout" id="=lP/5MUbYPMNsq9%6B4D" x="-1210" y="-330">
+      <value name="VALUE">
+        <shadow type="math_number" id="e.*[^:]p+p`Gm(9*|rDX">
+          <field name="NUM">1.5</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="execScript" id="nE/8sY@v2f{sHrCAxg+(">
+          <value name="TEXT">
+            <shadow type="textMultiline" id="ITt%D)KCZW^bzq.v{V@C">
+              <field name="HIGHLIGHT_MODE">javascript</field>
+              <field name="TEXT">
+
+let speech = new SpeechSynthesisUtterance();
+
+speech.lang = "en";
+
+speech.text = "hello! welcome"
+
+window.speechSynthesis.speak(speech);
+                  
+              </field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="361.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
