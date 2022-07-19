@@ -1,5 +1,5 @@
 let speech = new SpeechSynthesisUtterance();
-speech.lang = "en";
+speech.lang = "fr";
 
 //speech.text = "hello! welcome"
 const startButton = document.getElementById("speakButton");

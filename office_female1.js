@@ -215,7 +215,7 @@ function prepareExternalInterface(app) {
 			
     
 	//console.log(window.speechSynthesis.getVoices());
-	speech.lang = "en";
+	speech.lang = "fr";
 	//speech.voice = 
 	speech.text = "hello! welcome"
         window.speechSynthesis.speak(speech);
