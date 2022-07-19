@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="true" scrollx="1360" scrolly="647" scale="0.9">
+  <tab name="init" type="InitTab" active="false" scrollx="1315.9999999999995" scrolly="585" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="BKxlfbt${!`mkd[`wF.s" x="-1390" y="-650">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -7,14 +7,277 @@
       <field name="PRESERVE_DRAW_BUF">FALSE</field>
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setHTMLElemStyle" id="@8//UdWQQB*cS]TnRCmo" x="-1170" y="-510">
+      <field name="PROPERTY">display</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <block type="text" id="*x$P;%mNGbzh/audmW_@">
+          <field name="TEXT">none</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="6:IJfIl1Ck!OO@@O#A/Q">
+          <field name="TEXT">speakButton</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemStyle" id="By81bXhi+]D3Ahohf]^s">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="u9g;T%OCrWI.oZG#$RS^">
+              <field name="TEXT">none</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="ToD_-7:7im~/wU^29b-$">
+              <field name="TEXT">textArea</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="g}WqFbXy6^kfN0sJWg$:" x="-1430" y="-410">
+      <statement name="DO_START">
+        <block type="setHTMLElemStyle" id="i%`8RQnI(a~Act2KwnR`">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="5$$/4y{;=wf1{`Fw!G0~">
+              <field name="TEXT">none</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="jYM%1avD9E,KL2:euacc">
+              <field name="TEXT">speakButton</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="kO@5.4*ORHD[8[[96aqG">
+              <field name="PROPERTY">display</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="scq*8q9N@d;kg+t=hAT|">
+                  <field name="TEXT">none</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id=":Z=N94D_+cM9N8[.(2Ad">
+                  <field name="TEXT">textArea</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_END">
+        <block type="setHTMLElemStyle" id="l-YK6mz]fC@Hesf9pe_O">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="LggjY::bG1+6T_~-Iue2">
+              <field name="TEXT">none</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="NKLUvU(3)xu;{-dj*oKe">
+              <field name="TEXT">v3d-container</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="s{yMQ54ff+2D)fspl4JM">
+              <field name="PROPERTY">display</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="s|sZ;@H|Dud_?^9O;]Xu">
+                  <field name="TEXT">block</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="PR;-)Pgp`l_E!M(_ot96">
+                  <field name="TEXT">testButton</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="*yaAd*9yV){*f,o=)S_r">
+                  <field name="PROPERTY">display</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="`])*w1]n]7g*r5zr17RJ">
+                      <field name="TEXT">block</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="W;Kf?nOfjzL#wRGH2w0c">
+                      <field name="TEXT">speakButton</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="-Mg87ihTFci}2#4?R],z">
+                      <field name="PROPERTY">display</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="text" id="z_~(1AGkw#w4|UB0]$zd">
+                          <field name="TEXT">block</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="1%*ko^`tH8TujKgbE3=:">
+                          <field name="TEXT">textArea</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
   </tab>
-  <tab name="main" type="MainTab" active="false" scrollx="1488.5244388658466" scrolly="737.1140246557297" scale="1">
-    <block xmlns="https://developers.google.com/blockly/xml" type="setActiveCamera" id="fZDkkR?+^XuXQ2w|O=.W" x="-1370" y="-590">
+  <tab name="main" type="MainTab" active="true" scrollx="1156.8876804719512" scrolly="741.8052054563996" scale="0.8851701341936812">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setActiveCamera" id="fZDkkR?+^XuXQ2w|O=.W" x="-1210" y="-890">
       <value name="CAMERA">
         <shadow type="objectList" id="R$850mUMB2ZNmVT%zWlG">
           <field name="FIELDNAME">Camera</field>
         </shadow>
       </value>
+      <next>
+        <block type="stopAnimation" id="/@OCm5W;x0UyrQX6c_w~">
+          <value name="VALUE">
+            <shadow type="animationList" id="s`2YTn=R*rv?0Xwx3=3K">
+              <field name="FIELDNAME">Bip001</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="stopAnimation" id="+0$q)FKCX8Jms!m4Y/Mc">
+              <value name="VALUE">
+                <shadow type="animationList" id="p:1vo[r#%F:;c.Dx5|U?">
+                  <field name="FIELDNAME">Point001</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="`m|lkA7VEk3I-_[;bf/W" x="-1210" y="-750">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="R#E7NX+r;z8F2S:M[S1%">
+          <field name="TEXT">startButton</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setHTMLElemStyle" id="l-YK6mz]fC@Hesf9pe_O">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="LggjY::bG1+6T_~-Iue2">
+              <field name="TEXT">block</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="NKLUvU(3)xu;{-dj*oKe">
+              <field name="TEXT">v3d-container</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="s{yMQ54ff+2D)fspl4JM">
+              <field name="PROPERTY">display</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="s|sZ;@H|Dud_?^9O;]Xu">
+                  <field name="TEXT">none</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="PR;-)Pgp`l_E!M(_ot96">
+                  <field name="TEXT">testButton</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="3]h#+Wh_}*m?|Fsd#l6!">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="hgCx+zW2S{:/hpZz68TR">
+                      <field name="FIELDNAME">Bip001</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="{GXz+~Q+3)0HB:U%@z*O">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="(IZn6Bj.MwZAbr]C@np2">
+                          <field name="FIELDNAME">Point001</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="onAnimationFrameDo" id="_6NLL2_Xfs/B6Ss@3Tj%" x="-1210" y="-510">
+      <value name="ANIM">
+        <shadow type="animationList" id="-QYIFS*PG|/39Y{ad9Qv">
+          <field name="FIELDNAME">Bip001</field>
+        </shadow>
+      </value>
+      <value name="FRAME">
+        <shadow type="math_number" id="8._}i+WES3^6:Z^k}z:+">
+          <field name="NUM">55</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="callJSFunction" id="HX[=6aVpA.7Z-Nmb_W,Y">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" name="saySmt"></mutation>
+          <field name="NAME">saySmt</field>
+          <next>
+            <block type="playSound" id="n)Oq){)z[(NCLLJ:Q783" disabled="true">
+              <field name="LOOP">FALSE</field>
+              <value name="VALUE">
+                <block type="loadSoundAdv" id="T/|Cv^H^~{%)-pI3edNf">
+                  <field name="TYPE">MUSIC</field>
+                  <value name="URL">
+                    <shadow type="text" id="|3Do~mT6I4p5?r6MvHZ;">
+                      <field name="TEXT">./sounds/sound1.wav</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <next>
+                <block type="console.log" id="UBgKv(_:|S5|Q`$)N((y" disabled="true">
+                  <value name="VALUE">
+                    <shadow type="text" id="_4Pgr{!k7!gP-iiB4o)`">
+                      <field name="TEXT">sound1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="execScript" id="nE/8sY@v2f{sHrCAxg+(" disabled="true">
+                      <value name="TEXT">
+                        <shadow type="textMultiline" id="ITt%D)KCZW^bzq.v{V@C">
+                          <field name="HIGHLIGHT_MODE">javascript</field>
+                          <field name="TEXT" editor-height="11" editor-width="735">console.log("speeeeak!");&amp;#10;let speech = new SpeechSynthesisUtterance();&amp;#10;&amp;#10;speech.lang = "en";&amp;#10;&amp;#10;speech.text = "hello! welcome"&amp;#10;&amp;#10;window.speechSynthesis.speak(speech);&amp;#10;                  &amp;#10;              &amp;#10;              </field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
     </block>
   </tab>
   <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="361.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>

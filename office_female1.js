@@ -1,10 +1,12 @@
 'use strict';
 
 /* __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated */
+//const speech = new SpeechSynthesisUtterance();
 
 window.addEventListener('load', function() {
 
 var CONTAINER_ID = 'v3d-container';
+//let speech = new SpeechSynthesisUtterance();
 
 (function() {
 
@@ -201,7 +203,23 @@ function prepareExternalInterface(app) {
     // app.ExternalInterface.myJSFunction = function() {
     //     console.log('Hello, World!');
     // }
-
+	app.ExternalInterface.saySmt = function() {
+		
+	//fix issue: JavaScript speechSynthesis.speak() without user activation is no longer allowed since M71 	
+	//var audio = new Audio('./sounds/sound1.wav');
+	
+	//var resp = audio.play();
+  
+	
+	const synth = window.speechSynthesis;		
+			
+    
+	//console.log(window.speechSynthesis.getVoices());
+	speech.lang = "en";
+	//speech.voice = 
+	speech.text = "hello! welcome"
+        window.speechSynthesis.speak(speech);
+    }
 }
 
 function runCode(app) {
